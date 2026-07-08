@@ -1,8 +1,9 @@
+
 # Hikari-Cursor — Windows のマウスカーソルを macOS で
 
 [English](README.md) | [简体中文](README.zh-CN.md) | **日本語**
 
-Windows の `.cur` / `.ani` カーソルテーマを macOS でそのまま使えます。アニメーションカーソルにも対応し、システム全体(ブラウザや Electron を含むすべてのアプリ)に反映されます。macOS 26 (Tahoe) で開発・動作確認済み。
+Windows の `.cur` / `.ani` カーソルテーマを macOS でそのまま使えます。アニメーションカーソルにも対応し、システム全体(ブラウザや Electron を含むすべてのアプリ)に反映されます。macOS 26 (Tahoe) で開発・動作確認済み！
 
 ## インストール(一般ユーザー向け)
 
