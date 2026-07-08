@@ -57,8 +57,11 @@ Helpers: files with the same name (e.g. packs that ship one `busy.ani` per color
 # Apply a single file to a specific slot
 ./dist/mousecur apply arrow.cur --slot arrow
 
-# Cursor changes are lost after logout; install auto-reapply at login:
-./dist/mousecur agent install     # remove with: agent uninstall
+# Cursor changes are lost after logout; install auto-reapply at login
+./dist/mousecur agent install
+
+# Remove auto-reapply at login
+./dist/mousecur agent uninstall
 
 # Others
 ./dist/mousecur info <file>       # frame count / size / hotspot
