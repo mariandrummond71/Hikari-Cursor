@@ -57,8 +57,11 @@
 # 单个文件应用到指定槽位
 ./dist/mousecur apply arrow.cur --slot arrow
 
-# 光标替换在注销后失效;安装登录时自动重新应用:
-./dist/mousecur agent install     # 取消: agent uninstall
+# 光标替换在注销后失效;安装登录时自动重新应用
+./dist/mousecur agent install
+
+# 取消登录时自动重新应用
+./dist/mousecur agent uninstall
 
 # 其他
 ./dist/mousecur info <文件>       # 查看帧数/尺寸/热点
